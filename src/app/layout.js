@@ -1,7 +1,7 @@
 import GlobalState from "@/context";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Navber from "./components/Navber";
+import Navber from "@/components/Navber";
 
 const inter = Inter({ subsets: ["latin"] });
 
