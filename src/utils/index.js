@@ -189,17 +189,23 @@ export const AvailableSizes = [
 ];
 
 export const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "AUTH_DOMAIN",
-  projectId: "PROJECT_ID",
-  storageBucket: "STROAGE_BUCKET",
-  messagingSenderId: "MESSAGING_SENDER_ID",
-  appId: "APP_ID",
-  measurementId: "MEASUREMENT_ID",
+  // apiKey: "API_KEY",
+  // authDomain: "AUTH_DOMAIN",
+  // projectId: "PROJECT_ID",
+  // storageBucket: "STROAGE_BUCKET",
+  // messagingSenderId: "MESSAGING_SENDER_ID",
+  // appId: "APP_ID",
+  // measurementId: "MEASUREMENT_ID",
+  apiKey: "AIzaSyAx0UcWjn8kHfmBZv8QesSMHMxP8ka72_U",
+  authDomain: "the-kawaii-factory.firebaseapp.com",
+  projectId: "the-kawaii-factory",
+  storageBucket: "the-kawaii-factory.appspot.com",
+  messagingSenderId: "537079540786",
+  appId: "1:537079540786:web:ce972aa456105c7df0602b",
 };
 
-export const firebaseStroageURL =
-  "YOUR_FIREBASE_STROAGE_URL";
+// export const firebaseStroageURL = "YOUR_FIREBASE_STROAGE_URL";
+export const firebaseStroageURL = "gs://the-kawaii-factory.appspot.com";
 
 export const addNewAddressFormControls = [
   {
