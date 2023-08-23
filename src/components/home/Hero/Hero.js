@@ -20,7 +20,7 @@ export default function Hero() {
     <>
       <div className="bg-transparent  w-full relative overflow-hidden ">
         <div className=" top-0">
-          <div>
+          <div className="hidden lg:flex">
             <Swiper
               navigation={true}
               modules={[Navigation, Autoplay]}
@@ -36,7 +36,7 @@ export default function Hero() {
             >
               <SwiperSlide>
                 <Image
-                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/1/-/1-d-21082023.png"
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/d/1/d1-mb-23082023.jpg"
                   alt=""
                   height={900}
                   width={1920}
@@ -44,7 +44,7 @@ export default function Hero() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/2/-/2-d-21082023.png"
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/d/2/d2-mb-23082023.jpg"
                   alt=""
                   height={900}
                   width={1920}
@@ -52,7 +52,7 @@ export default function Hero() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/3/-/3-d-21082023_1.png"
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/d/3/d3-mb-23082023.jpg"
                   alt=""
                   height={900}
                   width={1920}
@@ -60,7 +60,31 @@ export default function Hero() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/4/-/4-d-21082023_3.png"
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/d/4/d4-mb-23082023.jpg"
+                  alt=""
+                  height={900}
+                  width={1920}
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          <div className="lg:hidden sm:flex">
+            <Swiper
+              navigation={true}
+              modules={[Navigation, Autoplay]}
+              slidesPerView={1}
+              loop={true}
+              style={{
+                "--swiper-navigation-color": "#fff",
+              }}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+              }}
+            >
+              <SwiperSlide>
+                <Image
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/mobile_image/r/1/r1-mb-23082023.jpg"
                   alt=""
                   height={900}
                   width={1920}
@@ -68,7 +92,31 @@ export default function Hero() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/5/-/5-d-21082023_1.png"
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/mobile_image/r/2/r2-mb-23082023.jpg"
+                  alt=""
+                  height={900}
+                  width={1920}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/mobile_image/r/3/r3-mb-23082023-revised.jpg"
+                  alt=""
+                  height={900}
+                  width={1920}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/mobile_image/r/4/r4-mb-23082023-revised.jpg"
+                  alt=""
+                  height={900}
+                  width={1920}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="https://www.aarong.com/media/mageplaza/bannerslider/banner/image/mobile_image/r/5/r5-mb-23082023.jpg"
                   alt=""
                   height={900}
                   width={1920}
