@@ -12,8 +12,8 @@ export default function News() {
             Stay in the know
           </p>
         </div>
-        <div className="mx-auto  grid  grid-cols-1 gap-x-8 sm:mt-8 sm:pt-0 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <div className="card rounded-none w-[590px] bg-base-100 ">
+        <div className="mx-auto  grid  grid-cols-1 gap-x-8 gap-y-8 sm:mt-8 sm:pt-0 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div className="  w-full bg-base-100 ">
             <figure>
               <Image
                 src="https://www.aarong.com/media//magearray/news/image/bkash-offer-thumbnail-image-21082023.jpg"
@@ -29,7 +29,7 @@ export default function News() {
               </h2>
             </div>
           </div>
-          <div className="card rounded-none w-[590px] bg-base-100 ">
+          <div className=" w-full bg-base-100 ">
             <figure>
               <Image
                 src="https://www.aarong.com/media//magearray/news/image/eid-cashback-thumbnail-20032023_1.jpg"
@@ -45,7 +45,7 @@ export default function News() {
               </h2>
             </div>
           </div>
-          <div className="card rounded-none w-[590px] bg-base-100 ">
+          <div className="w-full bg-base-100 ">
             <figure>
               <Image
                 src="https://www.aarong.com/media//magearray/news/image/Wrappo-1036x703_1.jpg"
