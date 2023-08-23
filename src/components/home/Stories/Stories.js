@@ -27,7 +27,7 @@ export default function Stories() {
         <div className="flex-1 flex-row">
           <div>
             <Image
-              src=" https://www.aarong.com/media//magearray/news/image/Kids-Eid23-Thumbnail-10042023.jpg"
+              src="https://www.aarong.com/media//magearray/news/image/Kids-Eid23-Thumbnail-10042023.jpg"
               alt=""
               width={600}
               height={200}
@@ -38,7 +38,7 @@ export default function Stories() {
           </div>
           <div>
             <Image
-              src=" https://www.aarong.com/media//magearray/news/image/Thumbnail-10042023.jpg"
+              src="https://www.aarong.com/media//magearray/news/image/Thumbnail-10042023.jpg"
               alt=""
               width={600}
               height={200}
