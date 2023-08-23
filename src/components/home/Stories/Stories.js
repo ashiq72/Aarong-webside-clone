@@ -24,7 +24,7 @@ export default function Stories() {
             TAAGA OUTSTANDING YOUNG PROFESSIONALS AWARD 2023
           </h2>
         </div>
-        <div className="flex-1 flex-row">
+        <div className="flex-1 lg:flex hidden flex-col">
           <div>
             <Image
               src="https://www.aarong.com/media//magearray/news/image/Kids-Eid23-Thumbnail-10042023.jpg"
