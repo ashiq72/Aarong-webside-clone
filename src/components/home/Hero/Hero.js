@@ -5,7 +5,6 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import Trending from "../Trending/Trending";
 
 import Image from "next/image";
 

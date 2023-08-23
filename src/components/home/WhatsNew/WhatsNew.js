@@ -3,7 +3,9 @@ import Image from "next/image";
 import { PiPlusCircleDuotone } from "react-icons/pi";
 
 export default async function WhatsNew() {
-  const res = await fetch("http://localhost:5000/allproducts");
+  const res = await fetch(
+    "https://the-kawaii-factory-server.vercel.app/allproducts"
+  );
   const allProduct = await res.json();
   const allProducts = allProduct.slice(0, 3);
   return (
